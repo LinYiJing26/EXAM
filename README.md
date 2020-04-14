@@ -21,5 +21,6 @@
 
 #### 工具
 1.GitHub Desktop https://desktop.github.com/
-2.Intellij IDEA https://www.jetbrains.com/idea/download/
-3.MySQL https://www.mysql.com/
+2.IntelliJ IDEA 2020.1 x64 https://www.jetbrains.com/idea/download/
+3.MySQL 5.7 https://www.mysql.com/
+4.MySQL Workbench https://dev.mysql.com/downloads/workbench/
