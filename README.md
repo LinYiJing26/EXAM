@@ -19,5 +19,7 @@
 2.试卷管理
 3.查询成绩
 
-###工具
-1.https://desktop.github.com/
+#### 工具
+1.GitHub Desktop https://desktop.github.com/
+2.Visual Studio Code https://code.visualstudio.com/
+3.MySQL https://www.mysql.com/
