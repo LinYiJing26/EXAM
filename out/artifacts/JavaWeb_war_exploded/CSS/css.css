@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #e3e3e3;
+}
+a{
+    background-color: #d5d5d5;
+    line-height: 5;
+    text-decoration: bisque;
+    text-decoration-line: underline;
+    font-family: "微软雅黑";
+    font-size: 30px;
+    text-after-overflow: 30px;
+    color: darkred;
+}
+.Block{
+    border: 2px;
+    border-color: #c2c2c2;
+    border-radius: 30px;
+    display: inline-block;
+    margin: 10px auto;
+}
+.Div{
+    text-align: center;
+}
