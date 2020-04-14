@@ -21,5 +21,5 @@
 
 #### 工具
 1.GitHub Desktop https://desktop.github.com/
-2.Visual Studio Code https://code.visualstudio.com/
+2.Intellij IDEA https://www.jetbrains.com/idea/download/
 3.MySQL https://www.mysql.com/

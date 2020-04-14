@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
     <servlet>
-        <servlet-name>userController</servlet-name>
-        <servlet-class>com.User.controller.UserController</servlet-class>
+        <servlet-name>studentController</servlet-name>
+        <servlet-class>com.Student.controller.StudentController</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>userController</servlet-name>
-        <url-pattern>/servlet/userController</url-pattern>
+        <servlet-name>studentController</servlet-name>
+        <url-pattern>/servlet/studentController</url-pattern>
     </servlet-mapping>
 </web-app>
