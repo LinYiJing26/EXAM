@@ -43,4 +43,7 @@ CREATE TABLE Affiche
 (ID int not null,Title varchar(50) not null);
 
 ---
+ccc
+---
 qqq
+---
