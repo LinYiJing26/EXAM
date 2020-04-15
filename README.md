@@ -41,3 +41,6 @@ CREATE TABLE Demand
 (CardID varchar(50) not null,studentID int not null,studentName varchar(50) not null,ObjectlvesScore int not null,SubjectlvesScore int not null,TotalScore float not null);
 CREATE TABLE Affiche
 (ID int not null,Title varchar(50) not null);
+
+
+ss
