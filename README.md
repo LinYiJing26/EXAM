@@ -55,5 +55,12 @@ xxx
 ---
 
 *ccc* 4.15
-JDBC方式java连接mysql驱动包下载 https://cdn.mysql.com//Downloads/Connector-J/mysql-connector-java-8.0.19.zip
+JDBC方式java连接mysql
+
+参考 https://blog.csdn.net/hju22/article/details/87364956?utm_source=app
+驱动包/jar包下载 https://cdn.mysql.com//Downloads/Connector-J/mysql-connector-java-8.0.19.zip https://dev.mysql.com/downloads/file/?id=492426
+
+报错参考 https://www.cnblogs.com/yongdongma/p/9911393.html
+1.修改URL：jdbc:mysql://localhost:3306/DatabaseName?useUnicode=true&amp;characterEncoding=utf-8 -> jdbc:mysql://localhost:3306/DatabaseName?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone = GMT
+2.修改驱动：Class.forName("com.mysql.jdbc.Driver"); -> Class.forName("com.mysql.cj.jdbc.Driver");
 ---
