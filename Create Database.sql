@@ -1,7 +1,7 @@
 CREATE DATABASE EXAM;
 USE EXAM;
 CREATE TABLE Student
-(studentID varchar(50) not null,studentName varchar(50) not null,Sex int not null,CardID varchar(50) not null,SUsername varchar(50) not null,SPassword varchar(50) not null);
+(studentID varchar(50) not null,studentName varchar(50) not null,Sex int not null,CardID varchar(50) not null,studentPassword varchar(50) not null);
 CREATE TABLE Teacher
 (teacharID int auto_increment primary key not null,teacherName varchar(50) not null,Sex int not null,Password varchar(50) not null);
 CREATE TABLE Administrator

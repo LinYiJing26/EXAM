@@ -29,17 +29,17 @@
 #### 数据库
 CREATE DATABASE EXAM;
 USE EXAM;
-CREATE TABLE Student
-(studentID varchar(50) not null,studentName varchar(50) not null,Sex int not null,CardID varchar(50) not null,SUsername varchar(50) not null,SPassword varchar(50) not null);
-CREATE TABLE Teacher
+>CREATE TABLE Student
+(studentID varchar(50) not null,studentName varchar(50) not null,Sex int not null,CardID varchar(50) not null,studentPassword varchar(50) not null);
+>CREATE TABLE Teacher
 (teacharID int auto_increment primary key not null,teacherName varchar(50) not null,Sex int not null,Password varchar(50) not null);
-CREATE TABLE Administrator
+>CREATE TABLE Administrator
 (ManagerID int auto_increment primary key not null,ManagerName varchar(50) not null,Password varchar(20) not null);
-CREATE TABLE Questions
+>CREATE TABLE Questions
 (Id int auto_increment primary key not null,Subject varchar(50) not null,Chart varchar(50) not null,Title varchar(50) not null,Type varchar(50) not null,Ans1 varchar(50) not null,Ans2 varchar(50) not null,Ans3 varchar(50) not null,Ans4 varchar(50) not null,Answer int not null,Public int not null);
-CREATE TABLE Demand
+>CREATE TABLE Demand
 (CardID varchar(50) not null,studentID int not null,studentName varchar(50) not null,ObjectlvesScore int not null,SubjectlvesScore int not null,TotalScore float not null);
-CREATE TABLE Affiche
+>CREATE TABLE Affiche
 (ID int not null,Title varchar(50) not null);
 
 ---
@@ -66,5 +66,12 @@ JDBC方式java连接mysql
 >>1.修改URL：jdbc:mysql://localhost:3306/DatabaseName?useUnicode=true&amp;characterEncoding=utf-8 -> jdbc:mysql://localhost:3306/DatabaseName?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone = GMT 
 
 >>2.修改驱动：Class.forName("com.mysql.jdbc.Driver"); -> Class.forName("com.mysql.cj.jdbc.Driver");
+
+---
+
+*ccc* 4.15
+修改student层
+>student属性名规范（同时修改了创建数据库的Create Database.sql文件以及README.md文件）
+>Login和Register的逻辑重写（导致注册需要更多要求）
 
 ---

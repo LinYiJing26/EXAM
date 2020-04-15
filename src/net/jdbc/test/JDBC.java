@@ -5,20 +5,25 @@ import java.sql.*;
 
 public class JDBC {
     //数据库url、用户名和密码
-    static final String DB_URL="jdbc:mysql://localhost:3306/book?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone = GMT";
+    //static final String DB_URL = "jdbc:mysql://localhost:3306/book?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone = GMT";
     //https://www.cnblogs.com/yongdongma/p/9911393.html
-    //static final String DB_URL="jdbc:mysql://localhost:3306/exam?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone = GMT";
-    static final String USER="root";
-    static final String PASS="root";
+    private String DB_URL = "jdbc:mysql://localhost:3306/exam?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone = GMT";
+    private String USER = "root";
+    private String PASS = "root";
+    private String jdbcName = "com.mysql.cj.jdbc.Driver";
 
-    public static void main(String[] args) {
-        try {
+    /**
+     * 获取数据库连接
+     * @return
+     * @throws Exception
+     */
+    public Connection getCon() throws Exception {
             //1.注册JDBC驱动
             Class.forName("com.mysql.cj.jdbc.Driver");
             //2.获取数据库连接
-            Connection connection = DriverManager.getConnection(DB_URL,USER,PASS);
+            Connection connection = DriverManager.getConnection(DB_URL, USER, PASS);
             //3.操作数据库
-            Statement statement = connection.createStatement();//获取操作数据库的对象
+            //Statement statement = connection.createStatement();//获取操作数据库的对象
 
             /*
 https://blog.csdn.net/hju22/article/details/87364956?utm_source=app
@@ -65,19 +70,18 @@ insert into bookinfo(book_name,price,public_date,store) values('英语常用口�
                 System.out.println();
             }
 
-            //4.关闭结果集、数据库操作对象、数据库连接
-            resultSet.close();
-
             */
-
-            statement.close();
-            connection.close();
-        }catch (ClassNotFoundException e){
-            e.printStackTrace();
-        }catch (SQLException e){
-            e.printStackTrace();
-        }catch (Exception e){
-            e.printStackTrace();
-        }
+        return connection;
     }
+
+    /**
+     * 关闭数据库连接
+     * @param connection
+     * @throws Exception
+     */
+    public void closeCon(Connection connection)throws Exception{
+        if (connection!=null)
+            connection.close();
+    }
+
 }

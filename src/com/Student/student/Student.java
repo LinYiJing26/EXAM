@@ -1,33 +1,50 @@
 package com.Student.student;
 
 public class Student {
-    private String username;
-    private String password;
-    private Integer userId;
+    private String studentID;//学号
+    private String studentName;//姓名
+    private int Sex;//性别 0为女 1为男
+    private String cardID;//身份证号码
+    private String studentPassword;//密码
 
-    public String getUsername() {
-        return username;
+    public String getStudentID() {
+        return studentID;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setStudentID(String studentID) {
+        this.studentID = studentID;
     }
 
-    public String getPassword() {
-        return password;
+    public String getStudentName() {
+        return studentName;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setStudentName(String studentName) {
+        this.studentName = studentName;
     }
 
-    public Integer getUserId() {
-        return userId;
+    public int getSex() {
+        return Sex;
     }
 
-    public void setUserId(Integer userId) {
-        this.userId = userId;
+    public void setSex(int sex) {
+        Sex = sex;
     }
 
+    public String getCardID() {
+        return cardID;
+    }
+
+    public void setCardID(String cardID) {
+        this.cardID = cardID;
+    }
+
+    public String getStudentPassword() {
+        return studentPassword;
+    }
+
+    public void setStudentPassword(String studentPassword) {
+        this.studentPassword = studentPassword;
+    }
 
 }
