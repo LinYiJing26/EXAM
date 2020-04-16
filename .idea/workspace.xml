@@ -7,21 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0db5fed9-4957-405d-90e8-f572338b296b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWeb_war_exploded/WEB-INF/classes/META-INF/JavaWeb.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWeb_war_exploded/WEB-INF/classes/META-INF/JavaWeb.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWeb_war_exploded/WEB-INF/classes/com/Student/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWeb_war_exploded/WEB-INF/classes/com/Student/controller/StudentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWeb_war_exploded/WEB-INF/classes/com/Student/dao/StudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWeb_war_exploded/WEB-INF/classes/com/Student/dao/StudentDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWeb_war_exploded/WEB-INF/classes/net/jdbc/test/JDBC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWeb_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWeb_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaWeb/com/Student/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaWeb/com/Student/controller/StudentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaWeb/com/Student/dao/StudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaWeb/com/Student/dao/StudentDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaWeb/net/jdbc/test/JDBC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Student/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Student/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Student/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Student/dao/StudentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/jdbc/test/JDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/jdbc/JDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +52,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/exam-master" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -286,6 +273,8 @@
       <workItem from="1586965530362" duration="316000" />
       <workItem from="1586999815516" duration="13733000" />
       <workItem from="1587019604080" duration="951000" />
+      <workItem from="1587031411335" duration="1968000" />
+      <workItem from="1587037723182" duration="694000" />
     </task>
     <servers />
   </component>
@@ -342,10 +331,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="546" y="302" key="DetectedRootsChooserDialog/0.0.1536.864@0.0.1536.864" timestamp="1587019330456" />
-    <state x="437" y="269" key="FileChooserDialogImpl" timestamp="1587019328938">
+    <state x="437" y="269" key="FileChooserDialogImpl" timestamp="1587032993771">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="437" y="269" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1587019328938" />
+    <state x="437" y="269" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1587032993771" />
     <state width="1493" height="183" key="GridCell.Tab.0.bottom" timestamp="1587019563887">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
