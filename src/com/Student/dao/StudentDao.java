@@ -2,10 +2,7 @@ package com.Student.dao;
 
 import com.Student.student.Student;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
+import java.sql.*;
 
 public class StudentDao {
 
@@ -15,6 +12,7 @@ public class StudentDao {
         PreparedStatement ps = null;
         String sql = "INSERT INTO student(studentID,studentPassword)VALUES(?,?)";
         try {
+            Statement statement = connection.createStatement();//获取操作数据库的对象
 
             ps = connection.prepareStatement(sql);
             ps.setString(1, student.getStudentID());
@@ -23,6 +21,8 @@ public class StudentDao {
                 flag = true;
             }
 
+        } catch (SQLException e) {
+            e.printStackTrace();
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -33,9 +33,8 @@ public class StudentDao {
     //登录功能
     public Student studentLogin(Connection connection, Student student) {
         Student resultStudent = null;
-        String sql = "SELECT * FROM students WHERE studentID=? AND studentPassword=?";
+        String sql = "SELECT * FROM student WHERE studentID=? AND studentPassword=?";
         try {
-
             PreparedStatement ps = connection.prepareStatement(sql);
             ps.setString(1, student.getStudentID());
             ps.setString(2, student.getStudentPassword());
@@ -45,7 +44,6 @@ public class StudentDao {
                 resultStudent.setStudentID(resultSet.getString("studentID"));
                 resultStudent.setStudentPassword(resultSet.getString("studentPassword"));
             }
-
         } catch (Exception e) {
             e.printStackTrace();
         } finally {

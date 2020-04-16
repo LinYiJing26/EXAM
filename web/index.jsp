@@ -11,6 +11,7 @@
 <div class="Div">
     <a href="TeacherWeb/teacherLogin.jsp" class="Block">TeacherLogin</a>
 </div>
+<a href="StudentWeb/student.jsp">StudentWeb/student.jsp</a>
 </body>
 </html>
 

@@ -75,3 +75,9 @@ JDBC方式java连接mysql
 >Login和Register的逻辑重写（导致注册需要更多要求）
 
 ---
+
+*ccc* 4.16
+更多的bug了
+>Login和Register的逻辑重写（导致更多bug。。。）
+
+---
