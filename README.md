@@ -172,11 +172,11 @@ JDBC方式java连接mysql
 ---
 
 *ccc* 4.16
-对项目描述更详细的README文档
+>对项目描述更详细的README文档
 
 ---
 
 *yabaiyabaiyabai* 4.17
-添加了三个系统的用例图
+>添加了三个系统的用例图
 
 ---
