@@ -15,21 +15,21 @@
 **2.考试**
 3.查询成绩
 
-![学生用例图](images-use case diagram/用例图_学生.PNG)
+![学生用例图](https://linyijing26.github.io/EXAM/images-use case diagram/用例图_学生.PNG)
 
 ### 教师 （孙 SheldorKop id:yabaiyabaiyabai）
 1.个人信息管理 （主）
 2.试卷管理
 3.查询成绩
 
-![教师用例图](images-use case diagram/用例图_教师.PNG)
+![教师用例图](https://linyijing26.github.io/EXAM/images-use case diagram/用例图_教师.PNG)
 
 ### 管理员 （许 Darrenreally id:xxx）
 1.信息管理 （主）
 2.试卷管理
 3.查询成绩
 
-![管理员用例图](images-use case diagram/用例图_管理员.PNG)
+![管理员用例图](https://linyijing26.github.io/EXAM/images-use case diagram/用例图_管理员.PNG)
 
 ## 三、所用技术
 
