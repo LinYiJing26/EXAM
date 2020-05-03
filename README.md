@@ -46,7 +46,7 @@
 
 所用语言：Java
 
-前台框架：待定
+前台框架：Bootstrap
 
 后台框架：Spring Data Jpa、Spring Boot 、Mybatis （参考 https://www.cnblogs.com/chenglc/p/11226693.html）
 
